@@ -16,11 +16,13 @@ const Joke = ({ setup, punchline }) => {
     return (
         <div className="container text-center">
             {loading ?
-                <PuffLoader
-                    color={'#283B50'}
-                    loading={loading}
-                    size={50}
-                />
+                <div className="text-center">
+                    <PuffLoader
+                        color={'#283B50'}
+                        loading={loading}
+                        size={50}
+                    />
+                </div>
                 :
                 <div>
                     <div className="setup">

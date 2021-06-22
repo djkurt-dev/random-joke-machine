@@ -1,4 +1,7 @@
-import './App.css';
+import './styles/App.scss';
+import './styles/Card.scss';
+import './styles/JokeContent.scss';
+import './styles/GetJokeButton.scss'
 import Card from './components/Card';
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -15,6 +18,7 @@ function App() {
         setPunchline(res.data.punchline);
       })
   }
+
   return (
     <div className="App">
       <div className="container text-center main-container">
