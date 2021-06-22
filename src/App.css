@@ -1,0 +1,48 @@
+.App{
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+.main-container {
+  margin-top: 120px;
+}
+
+.app-title {
+  font-weight: bold;
+  color: #D5E7F4;
+}
+
+.btn {
+  background-color: #17CCBB;
+  color: #283B50;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+.joke-card {
+  width: 600px;
+  min-height: 300px;
+  margin: auto;
+  border-radius: 15 px;
+  background-color: #FFCC3B;
+}
+
+.its-a-joke {
+  color: #283B50;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+
+.setup {
+  color: #283B50;
+  font-size: 25px;
+  font-weight: 600;
+}
+.punchline {
+  color: #283B50;
+  font-size: 30px;
+  font-weight: 400;
+}
