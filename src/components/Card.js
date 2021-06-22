@@ -7,6 +7,7 @@ const Card = ({ setup, setSetup, punchline, setPunchline, getJoke }) => {
         <div>
             <div className="card joke-card text-center mt-3">
                 <p className="mt-2 its-a-joke">It's a Jokeee!!!</p>
+                <hr />
                 <Joke
                     setup={setup}
                     setSetup={setSetup}
