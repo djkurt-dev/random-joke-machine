@@ -1,6 +1,6 @@
 import './App.css';
 import Card from './components/Card';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 function App() {
