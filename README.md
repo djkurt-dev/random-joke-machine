@@ -1,2 +1,2 @@
 # react-random-joke-machine
-used Fetch API on this project
+used axios on this project
